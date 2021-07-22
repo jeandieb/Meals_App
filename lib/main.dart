@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
                   color: Color.fromRGBO(20, 51, 51, 1),
                 ),
                 headline6: TextStyle(
-                  fontSize: 25,
+                  fontSize: 20,
                   fontFamily: 'RobotoCondensed',
                   fontWeight: FontWeight.w600,
                 ),

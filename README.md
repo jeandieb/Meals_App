@@ -1,2 +1,2 @@
 #APP Demo
-<img src = "screenshots">
+<img src = "screenshots/Categories.png">

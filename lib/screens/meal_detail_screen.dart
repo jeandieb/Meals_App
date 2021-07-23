@@ -8,9 +8,9 @@ class MealDetailScreen extends StatelessWidget {
   static const routeName = '/meal-detail';
 
   final Function setFavorite;
-  final Function _isMealFavorit;
+  final Function _isMealFavorite;
 
-  MealDetailScreen(this.setFavorite, this._isMealFavorit);
+  MealDetailScreen(this.setFavorite, this._isMealFavorite);
 
   @override
   Widget build(BuildContext context) {
@@ -109,7 +109,7 @@ class MealDetailScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
-          _isMealFavorit(mealId) ? Icons.star : Icons.star_border,
+          _isMealFavorite(mealId) ? Icons.star : Icons.star_border,
         ),
         onPressed: () {
           setFavorite(mealId);
